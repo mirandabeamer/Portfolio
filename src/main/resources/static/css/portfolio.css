@@ -3,7 +3,7 @@ body, html{
 }
 
 .front-page-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('MountainBackground.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("MountainBackground.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -12,7 +12,6 @@ body, html{
 }
 
 .about-page {
-	height: 75%;
 	background-color: #0f1008;
 	color: white;
 	margin-bottom: 25px;
@@ -25,8 +24,8 @@ body, html{
 }
 
 .contact-page {
-	height: 25%;
 	margin-top: 25px;
+	margin-bottom: 25px;
 	text-align: center;
 	color: black;
 }
@@ -47,16 +46,32 @@ body, html{
 
 nav {
 	color: white;
-	height: 7%;
-	background-color: #1b1c11;
+	height: 50px;
+	background-color: #535449;
 }
 
-a {
+a:hover {
+	color: #88867c
+}
+
+a.tab {
 	color: white;
 }
 
-ul {
-	position: right;
+a.tab:hover {
+	color: #0f1008;
+}
+
+#clinikcal:hover {
+	 color:#88867c;
+}
+
+a.linkedin:hover {
+	color: #0e76a8;
+}
+
+a.github:hover {
+	color: #f34f29;
 }
 
 h1 {
@@ -91,7 +106,7 @@ img {
 }
 
 .card {
-	background-color:  #1b1c11;
+	background-color:  #0f1008;
 }
 
 
@@ -137,7 +152,9 @@ footer {
 	height: 100px;
 	width: 200px;
 	float: right;
-	padding-right: 10px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 
