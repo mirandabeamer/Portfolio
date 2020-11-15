@@ -1,0 +1,143 @@
+body, html{
+	height: 100%;
+}
+
+.front-page-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('MountainBackground.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.about-page {
+	height: 75%;
+	background-color: #0f1008;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.project-page {
+	background-color: #0f1008;
+	color: white;
+	margin-top: 25px;
+}
+
+.contact-page {
+	height: 25%;
+	margin-top: 25px;
+	text-align: center;
+	color: black;
+}
+
+.intro-text {
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.about-paragraph {
+	height: 50%;
+	color: white;
+}
+
+nav {
+	color: white;
+	height: 7%;
+	background-color: #1b1c11;
+}
+
+a {
+	color: white;
+}
+
+ul {
+	position: right;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 2.5em;
+}
+
+.linkedin {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+
+
+#aboutLine {
+	color: white;
+}
+
+img {
+	height: 450px;
+	width: 300px;
+	border-radius: 8px;
+}
+
+.dates {
+	position:right;
+}
+
+.project-screenshot {
+	height: 270px;
+	width: 300px;
+}
+
+.card {
+	background-color:  #1b1c11;
+}
+
+
+#resumeDownload {
+	color: black;
+	padding-left: 10px;
+}
+
+.contact {
+	color: black;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.icons {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+.nav-item {
+	text-align: right;
+}
+
+@media (max-width: 991px) {
+	nav.navbar {
+		font-size: 20px;
+	}
+	.navbar-collapse {
+		background-color: #1b1c11;
+		color: white;
+		width: 25%;
+	}
+}
+
+footer {
+	background-color: #0f1008;
+	color: white;
+	font-size: 8px;
+}
+
+#signature {
+	height: 100px;
+	width: 200px;
+	float: right;
+	padding-right: 10px;
+}
+
+
