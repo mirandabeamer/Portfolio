@@ -66,6 +66,14 @@ a.tab:hover {
 	 color:#88867c;
 }
 
+.card-link {
+	color: white;
+}
+
+.card-link:hover{
+	color:#88867c;
+}
+
 a.linkedin:hover {
 	color: #0e76a8;
 }
@@ -100,13 +108,16 @@ img {
 	position:right;
 }
 
-.project-screenshot {
+.project-screenshot, .carousel-item {
 	height: 270px;
-	width: 300px;
+	width: 400px;
+	text-align: center;
 }
 
 .card {
 	background-color:  #0f1008;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 
@@ -157,4 +168,35 @@ footer {
 	margin-bottom: 20px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 75px;
+  outline: black;
+  background-size: 75%, 75%;
+  background-image: none;
+  content: '>';
+  color: black;
+  font-size: 25px;
+}
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  color: black;
+  font-size: 25px;
+}
+
+.carousel-control-prev {
+	margin-left: -5%;
+}
+
+.carousel-control-next {
+	margin-right: 5%;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  color: black;
+    font-size: 25px;
+}
